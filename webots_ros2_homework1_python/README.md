@@ -4,22 +4,28 @@
 
 <pre>
 source /opt/ros/humble/setup.bash
+</pre>
 
 <pre>
 export WEBOTS_HOME=/mnt/c/Program\ Files/Webots
+</pre>
 
 <pre>
 git clone <your github url for this repository>
+</pre>
 
 <pre>
 cd APCLayout
 sudo colcon build
+</pre>
 
 <pre>
 source install/setup.bash
+</pre>
 
+<pre>
 ros2 launch webots_ros2_homework1_python f23_robotics_1_launch.py
-
+</pre>
 
 ### Door and Light Edits
 Reset all doors to zero(closed) before closing, otherwise, you will +/- 1.5 depending on the sign to open(from whatever the number is now)
