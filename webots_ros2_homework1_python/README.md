@@ -88,41 +88,41 @@ ros2 run webots_ros2_homework1_python webots_ros2_homework1_python
 
 ### Door and Light edits
 Reset all doors to zero(closed) before closing, otherwise, you will +/- 1.5 depending on the sign to open(from whatever the number is now)
-  <pre>
+
 Door(1) position->1.5 open ; 0 close
-  <pre>
+
 Door(2) position->-1.5 open ; 0 close
-  <pre>
+
 Door(3) position->-1.5 open ; 0 close
-  <pre>
+
 Door(4) position->-1.5 open ; 0 close
-  <pre>
+
 Door(10) position->1.5 open ; 0 close
-  <pre>
+
 Door(16) position->1.5 open ; 0 close
-  <pre>
+
 Door(20) position->-1.5 open ; 0 close
-  <pre>
+
 Door(21) position->1.5 open ; 0 close
-  <pre>
+
 Door(22) position->-1.5 open ; 0 close
-  <pre>
+
 Door(23) position->1.5 open ; 0 close
-  <pre>
+
 Door(24) position->1.5 open ; 0 close
-  <pre>
+
 Door(25) position->-1.5 open ; 0 close
-  <pre>
+
 Door(26) position->1.5 open ; 0 close
-  <pre>
+
 Door(27) position->1.5 open ; 0 close
-  <pre>
+
 Door(28) position->1.5 open ; 0 close
-  <pre>
+
 Door(29) position->-1.5 open ; 0 close
-  <pre>
+
 Door(30) position->-1.5 open ; 0 close
-  <pre>
+
 Door(31) position->1.5 open ; 0 close
-  <pre>
+
 For lights go to the Point Light Node that corresponds with the DoubleFlourescent lights that you want to increase/decrease and increase/decrease the intensity
