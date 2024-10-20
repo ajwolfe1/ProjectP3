@@ -11,7 +11,7 @@ export WEBOTS_HOME=/mnt/c/Program\ Files/Webots
 </pre>
 
 <pre>
-git clone (https://github.com/ajwolfe1/APCLayout/)
+git clone https://github.com/ajwolfe1/APCLayout/
 </pre>
 
 <pre>
